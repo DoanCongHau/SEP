@@ -20,12 +20,12 @@ public class ArraySort {
             arr[i] = scanner.nextInt();
         }
 
-        sapXep(arr);
+        sort(arr);
         System.out.println("Numbers are sorting ascendingly: ");
         show(arr);
     }
 
-    public static void sorting(int[] arr) {
+    public static void sort(int[] arr) {
         int temp = arr[0];
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = i + 1; j < arr.length; j++) {
